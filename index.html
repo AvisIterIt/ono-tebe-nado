@@ -42,24 +42,22 @@
     <section class="cover">
 
       <h1 class="cover__title">
-        <span class="aligned-text">он<span class="letter-spacing-extended">о</span></span>
-        <span class="aligned-text aligned-text_center">теб<span class="letter-spacing-extended">е</span></span>
+        <span class="aligned-text">о<span class="letter-spacing-extended">н</span>о</span>
+        <span class="aligned-text aligned-text_center">те<span class="letter-spacing-extended">б</span>е</span>
         <span class="aligned-text aligned-text_right"><span class="letter-spacing-extended">н</span>адо</span>
       </h1>
 
-      <h2 class="cover__description">
+      <div class="cover__description">
 
-        <span class="cover__description-text">
+        <p class="cover__description-text">
           Аукцион вещей, в которые никто не верил
-        </span>
+        </p>
 
-        <a href="#">
-          <button class="bet-button">
-            Сделать ставку
-          </button>
-        </a>
+        <button class="bet-button" type="button">
+          Сделать ставку
+        </button>
 
-      </h2>
+      </div>
     </section>
 
     <!-- lots -->
@@ -71,15 +69,14 @@
         <li class="lots__card-list-item">
           <a class="card-link" href="#">
             <article class="card card_type_film">
-              <div class="overlay">
-                <h3 class="card__title">
-                  Фильм режиссёра, который бросил киношколу
-                </h3>
-                <p class="card__text">
-                  Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
-                  если бы вы не знали, что режиссёр — Пол Томас Андерсон?
-                </p>
-              </div>
+              <div class="overlay"></div>
+              <h3 class="card__title">
+                Фильм режиссёра, который бросил киношколу
+              </h3>
+              <p class="card__text">
+                Не просто бросил, а ушёл с первой лекции. Какой была бы ваша ставка,
+                если бы вы не знали, что режиссёр — Пол Томас Андерсон?
+              </p>
             </article>
           </a>
         </li>
@@ -87,17 +84,16 @@
         <li class="lots__card-list-item">
           <a class="card-link" href="#">
             <article class="card card_type_book">
-              <div class="overlay">
-                <h3 class="card__title">
-                  Книга, где описан один скучный день из жизни рекламного агента
-                </h3>
-                <p class="card__text">
-                  Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский.
-                  В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных
-                  времён.
-                  И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
-                </p>
-              </div>
+              <div class="overlay"></div>
+              <h3 class="card__title">
+                Книга, где описан один скучный день из жизни рекламного агента
+              </h3>
+              <p class="card__text">
+                Объёмом почти в тысячу страниц. Иногда без знаков препинания и с переходами на древнеанглийский.
+                В ней одновременно рассказывается о 16 июня 1904 года и об истории литературы, начиная с античных
+                времён.
+                И это всё накладывается на эпическую поэму Гомера. Сколько бы вы поставили на «Улисса» Джеймса Джойса?
+              </p>
             </article>
           </a>
         </li>
@@ -105,16 +101,16 @@
         <li class="lots__card-list-item">
           <a class="card-link" href="#">
             <article class="card card_type_picture">
-              <div class="overlay">
-                <h3 class="card__title">
-                  Картина, которую повторит даже 5-летний сын маминой подруги
-                </h3>
-                <p class="card__text">
-                  Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку.
-                  Никаких полей, лесов, котиков...
-                  Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ Кандинского?
-                </p>
-              </div>
+              <div class="overlay"></div>
+              <h3 class="card__title">
+                Картина, которую повторит даже 5-летний сын маминой подруги
+              </h3>
+              <p class="card__text">
+                Ну действительно, там линия, тут кружочек, а здесь и вовсе что-то похожее на инфузорию-туфельку.
+                Никаких полей, лесов, котиков...
+                Сколько бы вы на такое поставили, если бы не знали, что это — одна из революционных работ
+                Кандинского?
+              </p>
             </article>
           </a>
         </li>
@@ -127,11 +123,13 @@
     <!-- about -->
 
     <section class="about">
+
       <div class="about__column">
         <div class="about__logo">
-          <img class="about__logo-image" src="/images/logo-white.svg" alt="оно тебе надо">
+          <img class="about__logo-image" src="images/logo-white.svg" alt="оно тебе надо">
         </div>
       </div>
+
       <div class="about__column">
         <h2 class="about__title">
           Об аукционе
@@ -142,7 +140,7 @@
           или картина,
           которую может нарисовать даже ребёнок? Кому нужны все эти странные вещи, созданные любителями?
         </p>
-        <p class="about__text2">
+        <p class="about__text">
           Слишком сложные или, наоборот, слишком простые. Опережающие своё время. В пух и прах растерзанные критиками.
           Непринятые и непонятые. Когда-то они казались просто неудачными.
           Но, несмотря на критику, кажущуюся простоту или сложность, сейчас без этих лотов невозможно представить
@@ -150,6 +148,7 @@
           Когда в эти вещи не верил никто, продолжали верить их создатели. И сейчас эти лоты стали культовыми.
         </p>
       </div>
+
     </section>
   </main>
 
@@ -186,17 +185,17 @@
     <ul class="footer__social-list">
       <li class="footer__social-list-item">
         <a class="footer__social-link" href="#">
-          <img class="footer__social-icon" src="/images/yt.svg" alt="youtube">
+          <img class="footer__social-icon" src="images/yt.svg" alt="youtube">
         </a>
       </li>
       <li class="footer__social-list-item">
         <a class="footer__social-link" href="#">
-          <img class="footer__social-icon" src="/images/vk.svg" alt="vk">
+          <img class="footer__social-icon" src="images/vk.svg" alt="vk">
         </a>
       </li>
       <li class="footer__social-list-item">
         <a class="footer__social-link" href="#">
-          <img class="footer__social-icon" src="/images/pinterest.svg" alt="pinterest">
+          <img class="footer__social-icon" src="images/pinterest.svg" alt="pinterest">
         </a>
       </li>
     </ul>
