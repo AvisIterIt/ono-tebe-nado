@@ -67,7 +67,6 @@
 
 .cover__title {
     font-size: 100px;
-    line-height: 1;
     color: #fff;
     letter-spacing: 30px;
     text-transform: uppercase;
@@ -79,7 +78,7 @@
     padding-top: 20px;
 }
 
-.aligned-text:first-child{
+.aligned-text:first-child {
     padding-top: 0;
     line-height: 115%;
 }
@@ -88,7 +87,7 @@
     letter-spacing:60px;
 }
 
-.no-letter-spacing{
+.no-letter-spacing {
     letter-spacing: 0;
 }
 
@@ -119,7 +118,6 @@
 }
 
 .bet-button {
-    font-family: inherit;
     background-color: transparent;
     border: 1px solid currentColor;
     padding: 12px 30px;
@@ -156,7 +154,7 @@
     width: 100%;
 }
 
-.lots__card-list-item{
+.lots__card-list-item {
     flex: 1 1 334px;
 }
 
